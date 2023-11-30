@@ -13,3 +13,6 @@ Implemente el control de concurrencia para evitar condiciones de carrera, por ej
 Implemente auditoría y control de versiones para realizar un seguimiento de quién hace qué y cuándo en el sistema.
 Utilice una caché para mejorar el rendimiento de las operaciones comunes, como buscar libros.
 Utilice pruebas unitarias e integración para verificar el correcto funcionamiento de su aplicación.
+
+
+### No hay commits porque s ema hebia olvidado hacer el git init, y se me han hecho en el git general.
