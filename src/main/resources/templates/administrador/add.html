@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+        layout:decorate="~{layout}">
+    <head>
+        <title>[[#{administrador.add.headline}]]</title>
+    </head>
+    <body>
+        <div layout:fragment="content">
+            <div class="d-flex flex-wrap mb-4">
+                <h1 class="flex-grow-1">[[#{administrador.add.headline}]]</h1>
+                <div>
+                    <a th:href="@{/administradors}" class="btn btn-secondary">[[#{administrador.add.back}]]</a>
+                </div>
+            </div>
+            <div th:replace="~{fragments/forms::globalErrors('administrador')}" />
+            <form th:action="${requestUri}" method="post">
+                <div th:replace="~{fragments/forms::inputRow(object='administrador', field='nombre')}" />
+                <div th:replace="~{fragments/forms::inputRow(object='administrador', field='usuario')}" />
+                <div th:replace="~{fragments/forms::inputRow(object='administrador', field='contrasenya')}" />
+                <input type="submit" th:value="#{administrador.add.headline}" class="btn btn-primary mt-4" />
+            </form>
+        </div>
+    </body>
+</html>
