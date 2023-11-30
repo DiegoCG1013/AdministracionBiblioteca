@@ -15,4 +15,4 @@ Utilice una caché para mejorar el rendimiento de las operaciones comunes, como 
 Utilice pruebas unitarias e integración para verificar el correcto funcionamiento de su aplicación.
 
 
-### No hay commits porque s ema hebia olvidado hacer el git init, y se me han hecho en el git general.
+### No hay commits porque se me había olvidado hacer el git init, y se me han hecho en el git general.
